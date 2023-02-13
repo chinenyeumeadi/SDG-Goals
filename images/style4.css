@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0px;
+    font: sans serif;
+}
+
+body{
+    background: url(background1.jpeg);
+    background-size: cover;
+    background-repeat: x;
+    background-position: center;
+    height: 100vh;
+}
+
+nav{
+    display: flex;
+    font-size: 25px;
+    padding: 10px;
+}
+
+nav ul li a :hover{
+    color: #fff;
+}
+
+.content-text{
+    padding-top: 150px;
+    text-align: center;
+    margin: 50px;
+    color: #fff;
+}
+
+img{
+    max-width: 25%;
+    max-height: 15%;
+    float:left
+
+}
+
+text{
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 20%;
+    float: left;
+}
+
+footer{
+    clear: both;
+    text-align: center;
+}

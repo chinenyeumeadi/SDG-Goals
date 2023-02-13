@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    font:sans-serif;
+}
+
+body{
+    background: url('./equal.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+
+}
+ nav{
+    display: flex;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    float: right;
+    color: black;
+    font: bolder;
+
+
+}
+
+nav ul li {
+    display: inline;
+    position: relative;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:white;
+}
+
+nav ul li a:hover{
+    color: black ;
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1em;
+    width: 100;
+}
+div{
+    display: flex;
+    flex-direction: row;
+}
+section{
+    display: flex;
+    flex-direction: row;
+}
+img{
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.pic{
+    display: flex;
+    padding: 10px;
+    margin: 3px;
+    text-justify:auto ;
+    justify-content:flex-start;
+    justify-self: start;
+}
+img{
+    padding: 10px;
+}
+p{
+    color: black;
+}
+
+
+    
+
+
+        
+    
+
+
+    
+    
+
+
+
+    
+    

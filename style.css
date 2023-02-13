@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font:sans-serif;
+}
+
+body{
+    background: url('./por.jpg');
+    background-size: cover;
+    background-repeat: x;
+    background-position: center;
+    height: 100vh;
+}
+
+nav{
+    display: flex;
+    margin: auto;
+    font-size: 25px;
+    padding: 20px 0px;
+    align-items: center;
+    background-color: black;
+}
+
+nav ul li {
+    display: inline;
+    position: relative;
+    text-decoration: none;
+    padding: 10px;
+    background-color: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:wheat;  
+}
+
+nav ul li a:hover{
+    color: white;
+}
+
+a{
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    color: wheat;
+}
+
+a:hover{
+    color: white;
+}
+
+.banner-text{
+    padding-top: 150px;
+    text-align: center;
+    margin: 50px;
+    color: #fff;
+ }
+
+ h1{
+    font-family: sans-serif;
+    font-size: 60px;
+}
+
+#banner-talk{
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+#main-container{
+    display: flex;
+    width: 300px;
+    height: auto;
+    padding-right: 50px 50px 50px;
+}
+
+.container{
+    color: white;
+    font-size: large;
+    width: 300px;
+    height: auto;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* div{
+    display: flex;
+    flex-direction: row;
+}
+section{
+    display: flex;
+    flex-direction: row;
+}
+img{
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font:xx-large;
+}
+.pic{
+    display: flex;
+    padding: 10px;
+    margin: 5px;
+       
+}
+img{
+    padding: 10px;
+}
+p{
+    color:black;
+}
+footer{
+    clear: both;
+    text-align: center;
+}     */
+
+
+    
+
+
+        
+    
+
+
+    
+    
